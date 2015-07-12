@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C6A3801B52616C0090603E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A37F1B52616C0090603E /* main.m */; };
+		20C6A3831B52616C0090603E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A3821B52616C0090603E /* AppDelegate.m */; };
+		20C6A3861B52616C0090603E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A3851B52616C0090603E /* ViewController.m */; };
+		20C6A3891B52616C0090603E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6A3871B52616C0090603E /* Main.storyboard */; };
+		20C6A38B1B52616C0090603E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C6A38A1B52616C0090603E /* Images.xcassets */; };
+		20C6A38E1B52616C0090603E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C6A38C1B52616C0090603E /* LaunchScreen.xib */; };
+		20C6A39A1B52616C0090603E /* ColorOfHappinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A3991B52616C0090603E /* ColorOfHappinessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C6A3941B52616C0090603E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C6A3721B52616C0090603E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C6A3791B52616C0090603E;
+			remoteInfo = ColorOfHappiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C6A37A1B52616C0090603E /* ColorOfHappiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorOfHappiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C6A37E1B52616C0090603E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C6A37F1B52616C0090603E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20C6A3811B52616C0090603E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20C6A3821B52616C0090603E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20C6A3841B52616C0090603E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20C6A3851B52616C0090603E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20C6A3881B52616C0090603E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C6A38A1B52616C0090603E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20C6A38D1B52616C0090603E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		20C6A3931B52616C0090603E /* ColorOfHappinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorOfHappinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C6A3981B52616C0090603E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C6A3991B52616C0090603E /* ColorOfHappinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorOfHappinessTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C6A3771B52616C0090603E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C6A3901B52616C0090603E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C6A3711B52616C0090603E = {
+			isa = PBXGroup;
+			children = (
+				20C6A37C1B52616C0090603E /* ColorOfHappiness */,
+				20C6A3961B52616C0090603E /* ColorOfHappinessTests */,
+				20C6A37B1B52616C0090603E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C6A37B1B52616C0090603E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A37A1B52616C0090603E /* ColorOfHappiness.app */,
+				20C6A3931B52616C0090603E /* ColorOfHappinessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C6A37C1B52616C0090603E /* ColorOfHappiness */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A3811B52616C0090603E /* AppDelegate.h */,
+				20C6A3821B52616C0090603E /* AppDelegate.m */,
+				20C6A3841B52616C0090603E /* ViewController.h */,
+				20C6A3851B52616C0090603E /* ViewController.m */,
+				20C6A3871B52616C0090603E /* Main.storyboard */,
+				20C6A38A1B52616C0090603E /* Images.xcassets */,
+				20C6A38C1B52616C0090603E /* LaunchScreen.xib */,
+				20C6A37D1B52616C0090603E /* Supporting Files */,
+			);
+			path = ColorOfHappiness;
+			sourceTree = "<group>";
+		};
+		20C6A37D1B52616C0090603E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A37E1B52616C0090603E /* Info.plist */,
+				20C6A37F1B52616C0090603E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20C6A3961B52616C0090603E /* ColorOfHappinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A3991B52616C0090603E /* ColorOfHappinessTests.m */,
+				20C6A3971B52616C0090603E /* Supporting Files */,
+			);
+			path = ColorOfHappinessTests;
+			sourceTree = "<group>";
+		};
+		20C6A3971B52616C0090603E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A3981B52616C0090603E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C6A3791B52616C0090603E /* ColorOfHappiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C6A39D1B52616C0090603E /* Build configuration list for PBXNativeTarget "ColorOfHappiness" */;
+			buildPhases = (
+				20C6A3761B52616C0090603E /* Sources */,
+				20C6A3771B52616C0090603E /* Frameworks */,
+				20C6A3781B52616C0090603E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorOfHappiness;
+			productName = ColorOfHappiness;
+			productReference = 20C6A37A1B52616C0090603E /* ColorOfHappiness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C6A3921B52616C0090603E /* ColorOfHappinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C6A3A01B52616C0090603E /* Build configuration list for PBXNativeTarget "ColorOfHappinessTests" */;
+			buildPhases = (
+				20C6A38F1B52616C0090603E /* Sources */,
+				20C6A3901B52616C0090603E /* Frameworks */,
+				20C6A3911B52616C0090603E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C6A3951B52616C0090603E /* PBXTargetDependency */,
+			);
+			name = ColorOfHappinessTests;
+			productName = ColorOfHappinessTests;
+			productReference = 20C6A3931B52616C0090603E /* ColorOfHappinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C6A3721B52616C0090603E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "John Tan";
+				TargetAttributes = {
+					20C6A3791B52616C0090603E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					20C6A3921B52616C0090603E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 20C6A3791B52616C0090603E;
+					};
+				};
+			};
+			buildConfigurationList = 20C6A3751B52616C0090603E /* Build configuration list for PBXProject "ColorOfHappiness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C6A3711B52616C0090603E;
+			productRefGroup = 20C6A37B1B52616C0090603E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C6A3791B52616C0090603E /* ColorOfHappiness */,
+				20C6A3921B52616C0090603E /* ColorOfHappinessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C6A3781B52616C0090603E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6A3891B52616C0090603E /* Main.storyboard in Resources */,
+				20C6A38E1B52616C0090603E /* LaunchScreen.xib in Resources */,
+				20C6A38B1B52616C0090603E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C6A3911B52616C0090603E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C6A3761B52616C0090603E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6A3861B52616C0090603E /* ViewController.m in Sources */,
+				20C6A3831B52616C0090603E /* AppDelegate.m in Sources */,
+				20C6A3801B52616C0090603E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C6A38F1B52616C0090603E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6A39A1B52616C0090603E /* ColorOfHappinessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C6A3951B52616C0090603E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C6A3791B52616C0090603E /* ColorOfHappiness */;
+			targetProxy = 20C6A3941B52616C0090603E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20C6A3871B52616C0090603E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C6A3881B52616C0090603E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C6A38C1B52616C0090603E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C6A38D1B52616C0090603E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C6A39B1B52616C0090603E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20C6A39C1B52616C0090603E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C6A39E1B52616C0090603E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorOfHappiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20C6A39F1B52616C0090603E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorOfHappiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20C6A3A11B52616C0090603E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorOfHappinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorOfHappiness.app/ColorOfHappiness";
+			};
+			name = Debug;
+		};
+		20C6A3A21B52616C0090603E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorOfHappinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorOfHappiness.app/ColorOfHappiness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C6A3751B52616C0090603E /* Build configuration list for PBXProject "ColorOfHappiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6A39B1B52616C0090603E /* Debug */,
+				20C6A39C1B52616C0090603E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C6A39D1B52616C0090603E /* Build configuration list for PBXNativeTarget "ColorOfHappiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6A39E1B52616C0090603E /* Debug */,
+				20C6A39F1B52616C0090603E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C6A3A01B52616C0090603E /* Build configuration list for PBXNativeTarget "ColorOfHappinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6A3A11B52616C0090603E /* Debug */,
+				20C6A3A21B52616C0090603E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C6A3721B52616C0090603E /* Project object */;
+}
