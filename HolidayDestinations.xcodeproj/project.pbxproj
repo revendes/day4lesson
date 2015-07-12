@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C6A3161B5204C50090603E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A3151B5204C50090603E /* main.m */; };
+		20C6A3191B5204C50090603E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A3181B5204C50090603E /* AppDelegate.m */; };
+		20C6A31C1B5204C50090603E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A31B1B5204C50090603E /* HomeViewController.m */; };
+		20C6A31F1B5204C50090603E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C6A31D1B5204C50090603E /* Main.storyboard */; };
+		20C6A3211B5204C50090603E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C6A3201B5204C50090603E /* Images.xcassets */; };
+		20C6A3241B5204C50090603E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C6A3221B5204C50090603E /* LaunchScreen.xib */; };
+		20C6A3301B5204C50090603E /* HolidayDestinationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A32F1B5204C50090603E /* HolidayDestinationsTests.m */; };
+		20C6A33B1B52125F0090603E /* HolidayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A33A1B52125F0090603E /* HolidayViewController.m */; };
+		20C6A33E1B5229460090603E /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6A33D1B5229460090603E /* ConfirmationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C6A32A1B5204C50090603E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C6A3081B5204C50090603E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C6A30F1B5204C50090603E;
+			remoteInfo = HolidayDestinations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C6A3101B5204C50090603E /* HolidayDestinations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayDestinations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C6A3141B5204C50090603E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C6A3151B5204C50090603E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20C6A3171B5204C50090603E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20C6A3181B5204C50090603E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20C6A31A1B5204C50090603E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		20C6A31B1B5204C50090603E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		20C6A31E1B5204C50090603E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C6A3201B5204C50090603E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20C6A3231B5204C50090603E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		20C6A3291B5204C50090603E /* HolidayDestinationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayDestinationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C6A32E1B5204C50090603E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C6A32F1B5204C50090603E /* HolidayDestinationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolidayDestinationsTests.m; sourceTree = "<group>"; };
+		20C6A3391B52125F0090603E /* HolidayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidayViewController.h; sourceTree = "<group>"; };
+		20C6A33A1B52125F0090603E /* HolidayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidayViewController.m; sourceTree = "<group>"; };
+		20C6A33C1B5229460090603E /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationViewController.h; sourceTree = "<group>"; };
+		20C6A33D1B5229460090603E /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C6A30D1B5204C50090603E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C6A3261B5204C50090603E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C6A3071B5204C50090603E = {
+			isa = PBXGroup;
+			children = (
+				20C6A3121B5204C50090603E /* HolidayDestinations */,
+				20C6A32C1B5204C50090603E /* HolidayDestinationsTests */,
+				20C6A3111B5204C50090603E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C6A3111B5204C50090603E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A3101B5204C50090603E /* HolidayDestinations.app */,
+				20C6A3291B5204C50090603E /* HolidayDestinationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C6A3121B5204C50090603E /* HolidayDestinations */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A3171B5204C50090603E /* AppDelegate.h */,
+				20C6A3181B5204C50090603E /* AppDelegate.m */,
+				20C6A31A1B5204C50090603E /* HomeViewController.h */,
+				20C6A31B1B5204C50090603E /* HomeViewController.m */,
+				20C6A31D1B5204C50090603E /* Main.storyboard */,
+				20C6A33C1B5229460090603E /* ConfirmationViewController.h */,
+				20C6A33D1B5229460090603E /* ConfirmationViewController.m */,
+				20C6A3391B52125F0090603E /* HolidayViewController.h */,
+				20C6A33A1B52125F0090603E /* HolidayViewController.m */,
+				20C6A3201B5204C50090603E /* Images.xcassets */,
+				20C6A3221B5204C50090603E /* LaunchScreen.xib */,
+				20C6A3131B5204C50090603E /* Supporting Files */,
+			);
+			path = HolidayDestinations;
+			sourceTree = "<group>";
+		};
+		20C6A3131B5204C50090603E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A3141B5204C50090603E /* Info.plist */,
+				20C6A3151B5204C50090603E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20C6A32C1B5204C50090603E /* HolidayDestinationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A32F1B5204C50090603E /* HolidayDestinationsTests.m */,
+				20C6A32D1B5204C50090603E /* Supporting Files */,
+			);
+			path = HolidayDestinationsTests;
+			sourceTree = "<group>";
+		};
+		20C6A32D1B5204C50090603E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C6A32E1B5204C50090603E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C6A30F1B5204C50090603E /* HolidayDestinations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C6A3331B5204C50090603E /* Build configuration list for PBXNativeTarget "HolidayDestinations" */;
+			buildPhases = (
+				20C6A30C1B5204C50090603E /* Sources */,
+				20C6A30D1B5204C50090603E /* Frameworks */,
+				20C6A30E1B5204C50090603E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolidayDestinations;
+			productName = HolidayDestinations;
+			productReference = 20C6A3101B5204C50090603E /* HolidayDestinations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C6A3281B5204C50090603E /* HolidayDestinationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C6A3361B5204C50090603E /* Build configuration list for PBXNativeTarget "HolidayDestinationsTests" */;
+			buildPhases = (
+				20C6A3251B5204C50090603E /* Sources */,
+				20C6A3261B5204C50090603E /* Frameworks */,
+				20C6A3271B5204C50090603E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C6A32B1B5204C50090603E /* PBXTargetDependency */,
+			);
+			name = HolidayDestinationsTests;
+			productName = HolidayDestinationsTests;
+			productReference = 20C6A3291B5204C50090603E /* HolidayDestinationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C6A3081B5204C50090603E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "John Tan";
+				TargetAttributes = {
+					20C6A30F1B5204C50090603E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					20C6A3281B5204C50090603E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 20C6A30F1B5204C50090603E;
+					};
+				};
+			};
+			buildConfigurationList = 20C6A30B1B5204C50090603E /* Build configuration list for PBXProject "HolidayDestinations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C6A3071B5204C50090603E;
+			productRefGroup = 20C6A3111B5204C50090603E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C6A30F1B5204C50090603E /* HolidayDestinations */,
+				20C6A3281B5204C50090603E /* HolidayDestinationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C6A30E1B5204C50090603E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6A31F1B5204C50090603E /* Main.storyboard in Resources */,
+				20C6A3241B5204C50090603E /* LaunchScreen.xib in Resources */,
+				20C6A3211B5204C50090603E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C6A3271B5204C50090603E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C6A30C1B5204C50090603E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6A31C1B5204C50090603E /* HomeViewController.m in Sources */,
+				20C6A3191B5204C50090603E /* AppDelegate.m in Sources */,
+				20C6A3161B5204C50090603E /* main.m in Sources */,
+				20C6A33B1B52125F0090603E /* HolidayViewController.m in Sources */,
+				20C6A33E1B5229460090603E /* ConfirmationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C6A3251B5204C50090603E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C6A3301B5204C50090603E /* HolidayDestinationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C6A32B1B5204C50090603E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C6A30F1B5204C50090603E /* HolidayDestinations */;
+			targetProxy = 20C6A32A1B5204C50090603E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20C6A31D1B5204C50090603E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C6A31E1B5204C50090603E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C6A3221B5204C50090603E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C6A3231B5204C50090603E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C6A3311B5204C50090603E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20C6A3321B5204C50090603E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C6A3341B5204C50090603E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolidayDestinations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20C6A3351B5204C50090603E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolidayDestinations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20C6A3371B5204C50090603E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HolidayDestinationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayDestinations.app/HolidayDestinations";
+			};
+			name = Debug;
+		};
+		20C6A3381B5204C50090603E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HolidayDestinationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayDestinations.app/HolidayDestinations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C6A30B1B5204C50090603E /* Build configuration list for PBXProject "HolidayDestinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6A3311B5204C50090603E /* Debug */,
+				20C6A3321B5204C50090603E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C6A3331B5204C50090603E /* Build configuration list for PBXNativeTarget "HolidayDestinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6A3341B5204C50090603E /* Debug */,
+				20C6A3351B5204C50090603E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C6A3361B5204C50090603E /* Build configuration list for PBXNativeTarget "HolidayDestinationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6A3371B5204C50090603E /* Debug */,
+				20C6A3381B5204C50090603E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C6A3081B5204C50090603E /* Project object */;
+}
